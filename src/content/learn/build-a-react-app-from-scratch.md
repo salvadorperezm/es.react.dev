@@ -1,18 +1,18 @@
 ---
-title: Build a React app from Scratch
+title: Crear una aplicacion React desde Cero
 ---
 
 <Intro>
 
-If your app has constraints not well-served by existing frameworks, you prefer to build your own framework, or you just want to learn the basics of a React app, you can build a React app from scratch.
+Si tu aplicación tiene limitaciones que no son bien atendidas por los frameworks existentes, prefieres construir tu propio framework, o simplemente quieres aprender lo básico de una aplicación en React, puedes crear una aplicación en React desde cero.
 
 </Intro>
 
 <DeepDive>
 
-#### Consider using a framework {/*consider-using-a-framework*/}
+#### Considera usar un framework {/*consider-using-a-framework*/}
 
-Starting from scratch is an easy way to get started using React, but a major tradeoff to be aware of is that going this route is often the same as building your own adhoc framework. As your requirements evolve, you may need to solve more framework-like problems that our recommended frameworks already have well developed and supported solutions for. 
+Empezar desde cero es una manera sencilla de comenzar a usar React, pero una desventaja importante que debes tener en cuenta es que seguir este camino suele equivaler a construir tu propio framework improvisado. A medida que evolucionen tus necesidades, es posible que tengas que resolver más problemas típicos de un framework, para los cuales nuestros frameworks recomendados ya tienen soluciones bien desarrolladas y respaldadas 
 
 For example, if in the future your app needs support for server-side rendering (SSR), static site generation (SSG), and/or React Server Components (RSC), you will have to implement those on your own. Similarly, future React features that require integrating at the framework level will have to be implemented on your own if you want to use them.
 
